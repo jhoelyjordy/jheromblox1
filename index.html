@@ -413,14 +413,15 @@
             box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4);
         }
         
-        .physics-topics {
+        /* ESTILOS PARA BOTONES DE TEMAS EN TODAS LAS MATERIAS */
+        .topics-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 25px;
             margin-top: 30px;
         }
         
-        .physics-topic-btn {
+        .topic-btn {
             padding: 40px 25px;
             color: white;
             border: none;
@@ -442,7 +443,7 @@
             overflow: hidden;
         }
         
-        .physics-topic-btn::before {
+        .topic-btn::before {
             content: '';
             position: absolute;
             top: 0;
@@ -453,16 +454,17 @@
             z-index: 1;
         }
         
-        .physics-topic-btn span {
+        .topic-btn span {
             position: relative;
             z-index: 2;
         }
         
-        .physics-topic-btn:hover {
+        .topic-btn:hover {
             transform: translateY(-5px) scale(1.03);
             box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
         }
         
+        /* BOTONES DE FÍSICA */
         .kinematics-btn {
             background-image: url('https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1776&q=80');
         }
@@ -473,6 +475,66 @@
         
         .statics-btn {
             background-image: url('https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
+        }
+        
+        /* BOTONES DE QUÍMICA */
+        .gases-btn {
+            background-image: url('https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
+        }
+        
+        .stoichiometry-btn {
+            background-image: url('https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
+        }
+        
+        .quantum-btn {
+            background-image: url('https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
+        }
+        
+        /* BOTONES DE BIOLOGÍA */
+        .cell-biology-btn {
+            background-image: url('https://images.unsplash.com/photo-1530026405186-ed1f139313f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
+        }
+        
+        .genetics-btn {
+            background-image: url('https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
+        }
+        
+        .ecology-btn {
+            background-image: url('https://images.unsplash.com/photo-1476231682828-37e571bc172f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
+        }
+        
+        .biotechnology-btn {
+            background-image: url('https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
+        }
+        
+        /* BOTONES DE HISTORIA */
+        .universe-origin-btn {
+            background-image: url('https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
+        }
+        
+        .ancient-age-btn {
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpg/1280px-Cole_Thomas_The_Course_of_Empire_Destruction_1836.jpg');
+        }
+        
+        .middle-age-btn {
+            background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWT3RKuWGe4ZrrevGEMdc3LEHMqFvT-kOqSbHk9ebl3Q0UZZ4F9JUyuoRDf_eTF6czIsJwXd-eAShsHb823k6EFh-gq8HGstiCDGeS9Nb7n4tb2VXlocmUma_EebBJdG2apEAkpbUMrgAR/s1600/6-caballeros-y-personajes-de-la-edad-media-fondos.jpg');
+        }
+        
+        /* BOTONES DE MATEMÁTICA */
+        .trigonometry-btn {
+            background-image: url('https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
+        }
+        
+        .equations-btn {
+            background-image: url('https://images.unsplash.com/photo-1635372722656-389f87a941b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
+        }
+        
+        .inequalities-btn {
+            background-image: url('https://images.unsplash.com/photo-1635372722656-389f87a941b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
+        }
+        
+        .calculus-btn {
+            background-image: url('https://images.unsplash.com/photo-1635372722656-389f87a941b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80');
         }
         
         /* RAMAS DE FÍSICA */
@@ -643,7 +705,7 @@
                 grid-template-columns: 1fr;
             }
             
-            .physics-topics {
+            .topics-grid {
                 grid-template-columns: 1fr;
             }
             
@@ -713,10 +775,10 @@
             <h2>FÍSICA</h2>
             <p>Explora los misterios del universo a través de la física. Selecciona el tema que deseas estudiar:</p>
 
-            <div class="physics-topics">
-                <button class="physics-topic-btn kinematics-btn" onclick="openPhysicsBranch('kinematics')"><span>CINEMÁTICA</span></button>
-                <button class="physics-topic-btn dynamics-btn" onclick="openPhysicsBranch('dynamics')"><span>DINÁMICA</span></button>
-                <button class="physics-topic-btn statics-btn" onclick="openPhysicsBranch('statics')"><span>ESTÁTICA</span></button>
+            <div class="topics-grid">
+                <button class="topic-btn kinematics-btn" onclick="openPhysicsBranch('kinematics')"><span>CINEMÁTICA</span></button>
+                <button class="topic-btn dynamics-btn" onclick="openPhysicsBranch('dynamics')"><span>DINÁMICA</span></button>
+                <button class="topic-btn statics-btn" onclick="openPhysicsBranch('statics')"><span>ESTÁTICA</span></button>
             </div>
             <video autoplay loop muted id="video_background">
                 <source src="video4.mp4" type="video/mp4">
@@ -727,8 +789,6 @@
             <a href="">
             <button class="boton">historia</button>
             </a>
-
-
         </div>
 
         <!-- Interfaces para las ramas de física -->
@@ -814,8 +874,16 @@
         <div id="matematica-interface" class="course-interface">
             <button class="back-btn" onclick="closeCourse('matematica')">← Volver a Cursos</button>
             <h2>MATEMÁTICA</h2>
-            <p>Próximamente disponible</p>
-             <video autoplay loop muted id="video_background">
+            <p>Explora el fascinante mundo de las matemáticas. Selecciona el tema que deseas estudiar:</p>
+
+            <div class="topics-grid">
+                <button class="topic-btn trigonometry-btn" onclick="openMathBranch('trigonometry')"><span>TRIGONOMETRÍA</span></button>
+                <button class="topic-btn equations-btn" onclick="openMathBranch('equations')"><span>ECUACIONES</span></button>
+                <button class="topic-btn inequalities-btn" onclick="openMathBranch('inequalities')"><span>INECUACIONES</span></button>
+                <button class="topic-btn calculus-btn" onclick="openMathBranch('calculus')"><span>CÁLCULO</span></button>
+            </div>
+            
+            <video autoplay loop muted id="video_background">
                 <source src="video.mp4" type="video/mp4">
                 <source src="video.ogg" type="video/ogg">
                 Tu navegador no soporta el formato de video.
@@ -825,7 +893,15 @@
         <div id="biologia-interface" class="course-interface">
             <button class="back-btn" onclick="closeCourse('biologia')">← Volver a Cursos</button>
             <h2>BIOLOGÍA</h2>
-            <p>Próximamente disponible</p>
+            <p>Descubre los secretos de la vida. Selecciona el tema que deseas estudiar:</p>
+
+            <div class="topics-grid">
+                <button class="topic-btn cell-biology-btn" onclick="openBiologyBranch('cell-biology')"><span>BIOLOGÍA CELULAR</span></button>
+                <button class="topic-btn genetics-btn" onclick="openBiologyBranch('genetics')"><span>GENÉTICA</span></button>
+                <button class="topic-btn ecology-btn" onclick="openBiologyBranch('ecology')"><span>ECOLOGÍA</span></button>
+                <button class="topic-btn biotechnology-btn" onclick="openBiologyBranch('biotechnology')"><span>BIOTECNOLOGÍA</span></button>
+            </div>
+            
             <video autoplay loop muted id="video_background">
                 <source src="video3.mp4" type="video/mp4">
                 <source src="video3.ogg" type="video/ogg">
@@ -836,7 +912,14 @@
         <div id="quimica-interface" class="course-interface">
             <button class="back-btn" onclick="closeCourse('quimica')">← Volver a Cursos</button>
             <h2>QUÍMICA</h2>
-            <p>Próximamente disponible</p>
+            <p>Explora la ciencia de la materia. Selecciona el tema que deseas estudiar:</p>
+
+            <div class="topics-grid">
+                <button class="topic-btn gases-btn" onclick="openChemistryBranch('gases')"><span>LEY DE LOS GASES</span></button>
+                <button class="topic-btn stoichiometry-btn" onclick="openChemistryBranch('stoichiometry')"><span>ESTEQUIOMETRÍA</span></button>
+                <button class="topic-btn quantum-btn" onclick="openChemistryBranch('quantum')"><span>TEORÍA CUÁNTICA</span></button>
+            </div>
+            
             <video autoplay loop muted id="video_background">
                 <source src="video5.mp4" type="video/mp4">
                 <source src="video5.ogg" type="video/ogg">
@@ -847,7 +930,14 @@
         <div id="historia-interface" class="course-interface">
             <button class="back-btn" onclick="closeCourse('historia')">← Volver a Cursos</button>
             <h2>HISTORIA</h2>
-            <p>Próximamente disponible</p>
+            <p>Viaja a través del tiempo. Selecciona el tema que deseas estudiar:</p>
+
+            <div class="topics-grid">
+                <button class="topic-btn universe-origin-btn" onclick="openHistoryBranch('universe-origin')"><span>ORIGEN DEL UNIVERSO</span></button>
+                <button class="topic-btn ancient-age-btn" onclick="openHistoryBranch('ancient-age')"><span>EDAD ANTIGUA</span></button>
+                <button class="topic-btn middle-age-btn" onclick="openHistoryBranch('middle-age')"><span>EDAD MEDIA</span></button>
+            </div>
+            
             <video autoplay loop muted id="video_background">
                 <source src="video2.mp4" type="video/mp4">
                 <source src="video2.ogg" type="video/ogg">
@@ -883,8 +973,6 @@
         <div id="TEMAS_LIVE" class="content">
             <h2>TEMAS (LIVE)</h2>
             <p>Únete a nuestras clases en vivo y participa en tiempo real con nuestros instructores.</p>
-            
-            
             
             <div class="live-classes-container" id="liveClassesContainer">
                 <!-- Las clases en vivo se cargarán dinámicamente aquí -->
@@ -1059,6 +1147,23 @@
 
             // Mostrar la interfaz de física nuevamente
             document.getElementById("fisica-interface").style.display = "block";
+        }
+
+        // Funciones para las otras materias (placeholders)
+        function openMathBranch(branchName) {
+            alert("Próximamente disponible: " + branchName);
+        }
+
+        function openBiologyBranch(branchName) {
+            alert("Próximamente disponible: " + branchName);
+        }
+
+        function openChemistryBranch(branchName) {
+            alert("Próximamente disponible: " + branchName);
+        }
+
+        function openHistoryBranch(branchName) {
+            alert("Próximamente disponible: " + branchName);
         }
 
         // Funciones para las clases en vivo (placeholders)
